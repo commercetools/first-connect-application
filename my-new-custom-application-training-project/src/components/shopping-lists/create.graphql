@@ -1,0 +1,5 @@
+mutation createShoppingList($locale: Locale!, $name:String!) {
+   createShoppingList(draft:{name:{locale:$locale, value: $name}}) {
+       id
+   }
+}
