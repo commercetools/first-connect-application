@@ -4,16 +4,16 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'TrainingCustomApp',
-  entryPointUriPath: '${env:ENTRY_POINT_URI_PATH}',
-  cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
+  name: 'MC Connect Test Application',
+  entryPointUriPath: 'training-custom-application-test',
+  cloudIdentifier: 'gcp-eu',
   env: {
     development: {
       initialProjectKey: 'training-team-poc',
     },
     production: {
-      applicationId: '${env:CUSTOM_APPLICATION_ID}',
-      url: '${env:APPLICATION_URL}',
+      applicationId: 'clyhhzmlr000w11wmaxjzsc1e',
+      url: 'https://test-connect-app.vercel.com',
     },
   },
   oAuthScopes: {
