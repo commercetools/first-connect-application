@@ -8,3 +8,5 @@ coverage
 .vscode
 build/
 .env
+**/.env
+*.env
