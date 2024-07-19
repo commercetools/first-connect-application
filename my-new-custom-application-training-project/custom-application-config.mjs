@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'training-team-poc',
     },
     production: {
-      applicationId: 'clyhhzmlr000w11wmaxjzsc1e',
-      url: 'https://test-connect-app.vercel.com',
+      applicationId: '${env:CUSTOM_APPLICATION_ID}',
+      url: '${env:APPLICATION_URL}',
     },
   },
   oAuthScopes: {
